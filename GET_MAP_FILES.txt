@@ -1,0 +1,8 @@
+OPTIONAL - makes the site independent of the CDNs (do this if the map still does not load)
+
+1. Open each link below in your browser, then press Ctrl+S (Save page as) and keep the exact file name:
+   https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js        -> save as maplibre-gl.js
+   https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css       -> save as maplibre-gl.css
+   (if jsdelivr does not open for you, use https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js and .css)
+2. In your GitHub repository click Add file > Upload files and upload BOTH files next to index.html.
+3. Commit changes, wait 2 minutes, open the link again.
